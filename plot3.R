@@ -20,6 +20,6 @@ lines(x=dataSel$DateTime, y=dataSel$Sub_metering_2, col="red")
 lines(x=dataSel$DateTime, y=dataSel$Sub_metering_3, col="blue")
 legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
        bty="l", col=c("black","red","blue"), lwd=2)
-  
+dev.off() 
   
   

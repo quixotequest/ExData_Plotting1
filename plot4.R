@@ -31,7 +31,7 @@ legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
   ##Plot4
 plot(dataSel$DateTime, dataSel$Global_reactive_power, type = "l", 
       main = "", xlab = "datetime", ylab ="Global_reactive_power", col="black")
-
+dev.off()
 
   
   

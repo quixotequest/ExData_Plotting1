@@ -19,5 +19,5 @@ dataSel <- subset(data, DateTime$year==107 & DateTime$mon==1 & (DateTime$mday==1
        xlab="", ylab="Global Active Power (kilowatts)",
        col="black")
   
-  
+  dev.off()
   
